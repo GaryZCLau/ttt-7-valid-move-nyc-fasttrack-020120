@@ -11,7 +11,7 @@ def valid_move?(board, index)
   end
 
   def occupied_position(board, index)
-    if board[index] == "1-9"
+    if board[index] == "0-8"
       return false
     end
 end
