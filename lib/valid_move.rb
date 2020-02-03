@@ -13,6 +13,8 @@ def valid_move?(board, index)
     if board[index].between?(1,8) == true
       return true
     end
+  end
+
 end
 
 
