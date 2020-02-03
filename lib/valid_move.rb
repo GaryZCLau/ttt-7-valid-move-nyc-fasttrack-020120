@@ -12,6 +12,8 @@ def valid_move?(board, index)
   def occupied_position(board, index)
     if board[index].between?(1,8) == true
       return true
+    else
+      return false
     end
   end
 
